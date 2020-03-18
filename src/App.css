@@ -1,38 +1,67 @@
-.App {
+body {
+  background-color: rgb(3, 12, 54);
+}
+
+footer {
   text-align: center;
+  margin-bottom: 3vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.aboutWrapper {
+  text-align: center;
+  margin-bottom: 30vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.aboutText {
+  color: white;
+  display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.aboutText h1 {
+  font-size: 8vh;
+}
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+ul li {
+  list-style: none;
+  margin-right: 8vh;
+ 
+}
+
+ul li a {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+/* .workAll {
+  border: ;
+} */
+.workAll img {
+  width: 40vh;
+  height: 25vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBarWhole {
+  margin-bottom: 30vh;
+}
+.workAppjs {
+  display: flex;
+  justify-content: center;
+}
+.workAppjsOne {
+  margin-left: 7vh;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+.workAppjsAll {
+  margin-bottom: 15vh;
+}
+ion-icon {
+  font-size: 8vh;
+  color: white;
+  margin-left: 9vh;
+  margin-right: 3vh;
+  
+}
+button {
+  height: 3vh;
+  width: 20vh;
 }
