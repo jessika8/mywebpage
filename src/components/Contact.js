@@ -1,18 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Footer extends Component {
+export default function Contact() {
+    return (
+        <div className="contactWrapper">
+        <div className="contactDiv">
 
-    handleClick = (e) => {
-        e.preventDefault();
-        console.log('it is clicked');
-        
-    }
-
-    render() {
-
-        return (
-
-           <footer>
+            <h1>This is my contact page</h1>
+            <footer>
                 <div className="footerDiv">
                 <a onClick={ event => window.location.href='https://github.com/jessika8'}>
                <ion-icon className="icon" name="logo-github"></ion-icon>
@@ -22,6 +16,7 @@ export default class Footer extends Component {
                </a>
                </div>
            </footer>
-        )
-    }
+        </div>
+        </div>
+    )
 }

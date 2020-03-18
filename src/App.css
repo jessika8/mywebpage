@@ -6,15 +6,15 @@ footer {
   text-align: center;
   margin-bottom: 3vh;
 }
-.aboutWrapper {
+.homeWrapper {
   text-align: center;
   margin-bottom: 30vh;
 }
-.aboutText {
+.homeText {
   color: white;
   display: inline-block;
 }
-.aboutText h1 {
+.homeText h1 {
   font-size: 8vh;
 }
 ul {
@@ -38,8 +38,13 @@ ul li a {
   width: 40vh;
   height: 25vh;
 }
+.workAll p {
+  color: white;
+  width: 40vh;
+}
 
 .navBarWhole {
+  margin-top: 5vh;
   margin-bottom: 30vh;
 }
 .workAppjs {
@@ -65,3 +70,17 @@ button {
   height: 3vh;
   width: 20vh;
 }
+.aboutWrapper {
+  color: white;
+  text-align: center;
+}
+.aboutDiv{
+  display: inline-block;
+}
+.contactWrapper {
+  color: white;
+  text-align: center;
+}
+/* .contactDiv {
+
+} */
