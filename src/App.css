@@ -42,6 +42,11 @@ ul li a {
   color: white;
   width: 40vh;
 }
+.workCompGit {
+  margin-top: 25vh;
+  text-align: center;
+  color: white;
+}
 
 .navBarWhole {
   margin-top: 5vh;

@@ -5,7 +5,7 @@ export default function Contact() {
         <div className="contactWrapper">
         <div className="contactDiv">
 
-            <h1>This is my contact page</h1>
+            <h1>Contact me</h1>
             <footer>
                 <div className="footerDiv">
                 <a onClick={ event => window.location.href='https://github.com/jessika8'}>

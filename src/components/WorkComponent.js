@@ -31,6 +31,13 @@ export default class WorkComponent extends Component {
         <button onClick={event => window.location.href='https://jessika8.github.io/ToDoList/'}>To-Do List</button>
         </div>
         </div>
+        
+        <div className="workCompGit">
+        <h2>My GitHub</h2>
+        <a onClick={ event => window.location.href='https://github.com/jessika8'}>
+               <ion-icon className="icon" name="logo-github"></ion-icon>
+               </a>
+               </div>
         </div>
         )
     }
