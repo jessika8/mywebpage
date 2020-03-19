@@ -7,7 +7,7 @@ export default function About() {
          <h1>maarja</h1>
          <p>Originally from Estonia, currently in Manchester GB</p>
          <br></br>
-         <p>Software developer - started my coding jorney with Code Nation in 2019 september.</p>
+         <p>Software developer - started my coding jorney with Code Nation in 2019 September.</p>
         <p>Currently I am an apprentice developer for MusicMagpie</p>
          <br></br>
          <p>Hairdressing - I used to be a high-end hairdresser for almost a decade.</p>
