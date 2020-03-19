@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mywebpage/static/css/main.f08779f3.chunk.css",
+    "main.js": "/mywebpage/static/js/main.8f071636.chunk.js",
+    "main.js.map": "/mywebpage/static/js/main.8f071636.chunk.js.map",
+    "runtime-main.js": "/mywebpage/static/js/runtime-main.e8d93438.js",
+    "runtime-main.js.map": "/mywebpage/static/js/runtime-main.e8d93438.js.map",
+    "static/js/2.0c16aa35.chunk.js": "/mywebpage/static/js/2.0c16aa35.chunk.js",
+    "static/js/2.0c16aa35.chunk.js.map": "/mywebpage/static/js/2.0c16aa35.chunk.js.map",
+    "index.html": "/mywebpage/index.html",
+    "precache-manifest.41b6c6e171fbcddac36060e8eb38d829.js": "/mywebpage/precache-manifest.41b6c6e171fbcddac36060e8eb38d829.js",
+    "service-worker.js": "/mywebpage/service-worker.js",
+    "static/css/main.f08779f3.chunk.css.map": "/mywebpage/static/css/main.f08779f3.chunk.css.map",
+    "static/js/2.0c16aa35.chunk.js.LICENSE.txt": "/mywebpage/static/js/2.0c16aa35.chunk.js.LICENSE.txt",
+    "static/media/blogmy.png": "/mywebpage/static/media/blogmy.d184cfe9.png",
+    "static/media/movie.png": "/mywebpage/static/media/movie.ddb7dbea.png",
+    "static/media/todo.png": "/mywebpage/static/media/todo.1f8460fd.png",
+    "static/media/weather.png": "/mywebpage/static/media/weather.492ea2b7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8d93438.js",
+    "static/js/2.0c16aa35.chunk.js",
+    "static/css/main.f08779f3.chunk.css",
+    "static/js/main.8f071636.chunk.js"
+  ]
+}
