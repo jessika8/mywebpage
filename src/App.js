@@ -20,7 +20,7 @@ export default class App extends Component {
         <Navbar />
         <Switch>
         {/* <About /> */}
-        <Route exact path='/' component={Home} />
+        <Route exact path='/mywebpage' component={Home} />
         <Route path='/About' component={About} />
         <Route path='/Contact' component={Contact} />
         <Route path='/Work' component={WorkComponent} />

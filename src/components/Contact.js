@@ -8,10 +8,10 @@ export default function Contact() {
             <h1>Contact me</h1>
             <footer>
                 <div className="footerDiv">
-                <a onClick={ event => window.location.href='https://github.com/jessika8'}>
+                <a onClick={ event => window.open('https://github.com/jessika8', "_blank")}>
                <ion-icon className="icon" name="logo-github"></ion-icon>
                </a>
-               <a onClick={ event => window.location.href='https://linkedin.com/in/maarja-roots-56898319a'}>
+               <a onClick={ event => window.open('https://linkedin.com/in/maarja-roots-56898319a', "_blank")}>
                <ion-icon className="icon" name="logo-linkedin"></ion-icon>
                </a>
                </div>
