@@ -59,7 +59,7 @@ ul li a {
 }
 .workAppjsOne {
   margin-left: 7vh;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   text-align: center;
 }
 .workAppjsAll {
@@ -76,7 +76,7 @@ ion-icon:hover{
   color: rgb(0, 174, 255);
 }
 button {
-  height: 3vh;
+  height: 5vh;
   width: 20vh;
 }
 button:hover {
