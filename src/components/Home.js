@@ -1,12 +1,13 @@
 import React from 'react'
+import data from '../data.json'
 
 export default function Home() {
     return (
         <div className="homeWrapper">
         <div className="homeText">
-            <h2>Nice to meet you</h2>
-            <h1>I'm maarja</h1>
-            <p>software developer, ex-hairdresser, gym enthusiast, hiker, estonian</p>
+            <h2>{data.Hello}</h2>
+            <h1>{data.NameOne}</h1>
+             <p>{data.Who}</p>
             <p></p>
         </div>
         </div>

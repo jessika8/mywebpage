@@ -4,6 +4,9 @@ import Movie from '../pictures/movie.png'
 import MyBlog from '../pictures/blogmy.png'
 import Weather from '../pictures/weather.png'
 import ToDo from '../pictures/todo.png'
+import data from '../data.json'
+
+ 
 
 export default class WorkComponent extends Component {
 
@@ -14,21 +17,21 @@ export default class WorkComponent extends Component {
         <div className="workAppjs">
         <div className="workAppjsOne">
         {/* window.location.href= */}
-        <Work img={Movie} text="A page where you can search info about movies or people who work in the industry. Created by using Node.js express, handlebars and CSS"/>
+        <Work img={Movie} text={data.Work[0].movie}/>
         <button onClick={ event => window.open('https://movie-search-search.herokuapp.com/', "_blank")}>Movie/Person Search</button>
         </div>
         <div className="workAppjsOne">
-        <Work img={MyBlog} text="A blog page built from scrach using Node.js express, handlebars, MongoDB for the database,  Bulma for the front end. "/>
+        <Work img={MyBlog} text={data.Work[0].blog}/>
         <button onClick={event => window.open('https://node-express-mongodb-blog.herokuapp.com/', "_blank")}>MYBlog</button>
         </div>
         </div>
         <div className="workAppjs">
         <div className="workAppjsOne">
-        <Work img={Weather} />
+        <Work img={Weather} text={data.Work[0].weatherApp}/>
         <button onClick={event => window.open('https://new-weather-app-app.herokuapp.com/', "_blank")}>Weather app</button>
         </div>
         <div className="workAppjsOne">
-        <Work img={ToDo} />
+        <Work img={ToDo} text={data.Work[0].toDo}/>
         <button onClick={event => window.open('https://jessika8.github.io/ToDoList/', "_blank")}>To-Do List</button>
         </div>
         </div>

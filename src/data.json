@@ -1,0 +1,33 @@
+{
+    "NameOne" : [
+        "I'm maarja"
+    ],
+    "Hello" : [
+        "Nice to meet you"
+    ],
+    "Who" : [
+        "software developer, ex-hairdresser, gym enthusiast, hiker, estonian"
+    ],
+    "About" : [
+        {
+            "name" : "maarja",
+            "estonia" : "Originally from Estonia, currently in Manchester GB",
+            "cn" : "Software developer - started my coding jorney with Code Nation in 2019 September",
+            "developer" : "Currently I am an apprentice developer for MusicMagpie",
+           "hairdressing" : "Hairdressing - I used to be a high-end hairdresser for almost a decade",
+           "gym" : "Gym - I love to work out. It is a lifestyle for me",
+           "hiking" : "Hiking - Being outdoors gives me a lot of energy. And UK has some awesome hiking scenes"
+        }
+    ],
+    "Work" : [
+        {
+            "movie" : "A page where you can search info about movies or people who work in the industry. Created by using Node.js express, handlebars and CSS.",
+            
+            "blog" : "A blog page built from scrach using Node.js express, handlebars, MongoDB for the database,  Bulma for the front end. ",
+
+            "weatherApp" : "A page where you can check current weather. It is built with Node.js Express, handlebars and css ",
+
+            "toDo" : "A simple to-do list, where you can add your to-dos and delete them. It is bult with React.js and CSS"
+        }
+    ]
+}

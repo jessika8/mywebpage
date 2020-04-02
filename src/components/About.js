@@ -1,22 +1,24 @@
-import React from 'react'
+import React from "react";
+import data from "../data.json";
 
 export default function About() {
-    return (
-     <div className="aboutWrapper">
-     <div className="aboutDiv">
-         <h1>maarja</h1>
-         <p>Originally from Estonia, currently in Manchester GB</p>
-         <br></br>
-         <p>Software developer - started my coding jorney with Code Nation in 2019 September.</p>
-        <p>Currently I am an apprentice developer for MusicMagpie</p>
-         <br></br>
-         <p>Hairdressing - I used to be a high-end hairdresser for almost a decade.</p>
-         <p></p>
-         <br></br>
-         <p>Gym - I love to work out. It is a lifestyle for me.</p>
-         <br></br>
-         <p>Hiking - Being outdoors gives me a lot of energy. And UK has some awesome hiking scenes</p>
-     </div>
-     </div>
-    )
+  return (
+    <div className="aboutWrapper">
+      <div className="aboutDiv">
+        <h1>{data.About[0].name}</h1>
+        <p>{data.About[0].estonia}</p>
+        <br></br>
+        <p>{data.About[0].cn}</p>
+        <p>{data.About[0].developer}</p>
+        <br></br>
+        <p>{data.About[0].hairdressing}</p>
+        <p></p>
+        <br></br>
+        <p>{data.About[0].gym}</p>
+        <br></br>
+        <p>{data.About[0].hiking}</p>
+        <br></br>
+      </div>
+    </div>
+  );
 }
