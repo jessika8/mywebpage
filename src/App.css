@@ -15,7 +15,10 @@ footer {
   display: inline-block;
 }
 .homeText h1 {
-  font-size: 8vh;
+  font-size: 10vh;
+}
+.homeText h2 {
+  font-size: 4.5vh;
 }
 ul {
   display: flex;
@@ -25,11 +28,15 @@ ul {
 ul li {
   list-style: none;
   margin-right: 8vh;
+  font-size: 2.5vh;
  
 }
 
 ul li a {
   color: white;
+}
+ul li a:hover {
+  color: rgb(0, 174, 255);
 }
 /* a:hover ion-icons{
   background-color: yellow;
@@ -76,8 +83,10 @@ ion-icon:hover{
   color: rgb(0, 174, 255);
 }
 button {
-  height: 5vh;
+  height: 6vh;
   width: 20vh;
+  font-size: 2.5vh;
+  font-weight: bold;
 }
 button:hover {
   background-color: rgb(0, 174, 255);
@@ -88,6 +97,7 @@ button:hover {
 }
 .aboutDiv{
   display: inline-block;
+  margin-bottom: 8vh;
 }
 .contactWrapper {
   color: white;
@@ -97,7 +107,14 @@ button:hover {
 
 } */
 .aboutDiv h1 {
-  font-size: 8vh;
+  font-size: 10vh;
+}
+
+.homeText p {
+  font-size: 3vh;
+}
+.aboutDiv p {
+  font-size: 3vh;
 }
 
 @media only screen and (max-width: 450px) {
