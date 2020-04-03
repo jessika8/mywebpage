@@ -25,9 +25,13 @@
             
             "blog" : "A blog page built from scrach using Node.js express, handlebars, MongoDB for the database,  Bulma for the front end. ",
 
-            "weatherApp" : "A page where you can check current weather. It is built with Node.js Express, handlebars and css ",
+            "weatherApp" : "A page where you can check current weather. It is built with Node.js Express, handlebars and CSS ",
 
-            "toDo" : "A simple to-do list, where you can add your to-dos and delete them. It is bult with React.js and CSS"
+            "toDo" : "A simple to-do list, where you can add your to-dos and delete them. It is bult with React.js and CSS",
+
+            "diceGame" : "A dice game where two players can have a go at a game. It is built with Javascrip, CSS and DOM",
+
+            "calculator" : "A simple calculator, where you can do your basic maths. It is built with React.js and CSS"
         }
     ]
 }

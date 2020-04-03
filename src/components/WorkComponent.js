@@ -4,6 +4,8 @@ import Movie from '../pictures/movie.png'
 import MyBlog from '../pictures/blogmy.png'
 import Weather from '../pictures/weather.png'
 import ToDo from '../pictures/todo.png'
+import DiceGame from '../pictures/diceGame.png'
+import Calculator from '../pictures/calculator.png'
 import data from '../data.json'
 
  
@@ -35,7 +37,18 @@ export default class WorkComponent extends Component {
         <button onClick={event => window.open('https://jessika8.github.io/ToDoList/', "_blank")}>To-Do List</button>
         </div>
         </div>
-        
+        <div className="workAppjs">
+        <div className="workAppjsOne">
+        <Work img={DiceGame} text={data.Work[0].diceGame}/>
+        <button onClick={event => window.open('https://jessika8.github.io/dicegame/', "_blank")}>Dice Game</button>
+        </div>
+        <div className="workAppjsOne">
+        <Work img={Calculator} text={data.Work[0].calculator}/>
+        <button onClick={event => window.open('https://jessika8.github.io/calculator/', "_blank")}>Calculator</button>
+        </div>
+        </div>
+
+
         <div className="workCompGit">
         <h2>My GitHub</h2>
         <a onClick={ event => window.open('https://github.com/jessika8', "_blank")}>
