@@ -51,9 +51,12 @@ ul li a:hover {
   width: 40vh;
 }
 .workCompGit {
-  margin-top: 25vh;
+  margin-top: 15vh;
   text-align: center;
   color: white;
+}
+.workCompGit h2 {
+  margin-left: 3vh;
 }
 
 .navBarWhole {
@@ -73,20 +76,26 @@ ul li a:hover {
   margin-bottom: 15vh;
 }
 ion-icon {
-  font-size: 8vh;
+  font-size: 9vh;
   color: white;
-  margin-left: 9vh;
-  margin-right: 3vh;
+  margin-left: 3vh;
+  margin-right: 0vh;
   
 }
 ion-icon:hover{
   color: rgb(0, 174, 255);
 }
 button {
-  height: 6vh;
-  width: 20vh;
+  height: 8vh;
+  width: 25vh;
   font-size: 2.5vh;
   font-weight: bold;
+  border-radius: 10%;
+  border-width: 0.6vh;
+  border-color: white;
+  background-color:rgb(3, 12, 54) ;
+  color: white;
+  margin-top: 1vh;
 }
 button:hover {
   background-color: rgb(0, 174, 255);

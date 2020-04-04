@@ -31,7 +31,9 @@
 
             "diceGame" : "A dice game where two players can have a go at a game. It is built with Javascrip, CSS and DOM",
 
-            "calculator" : "A simple calculator, where you can do your basic maths. It is built with React.js and CSS"
+            "calculator" : "A simple calculator, where you can do your basic maths. It is built with React.js and CSS",
+
+            "github" : "More works on my GitHub"
         }
     ]
 }

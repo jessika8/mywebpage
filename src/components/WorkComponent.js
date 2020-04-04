@@ -50,7 +50,7 @@ export default class WorkComponent extends Component {
 
 
         <div className="workCompGit">
-        <h2>My GitHub</h2>
+        <h2>{data.Work[0].github}</h2>
         <a onClick={ event => window.open('https://github.com/jessika8', "_blank")}>
                <ion-icon className="icon" name="logo-github"></ion-icon>
                </a>
