@@ -182,7 +182,7 @@ button:hover {
   button {
     height: 10vh;
     width: 30vh;
-    background-color: white;
+    color: white;
     margin-bottom: 5vh;
     background-color: rgb(3, 12, 54);
     border-width: 1vh;
