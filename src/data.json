@@ -23,7 +23,7 @@
         {
             "movie" : "A page where you can search info about movies or people who work in the industry. Created by using Node.js express, handlebars and CSS.",
             
-            "blog" : "A blog page built from scrach using Node.js express, handlebars, MongoDB for the database,  Bulma for the front end. ",
+            "blog" : "A blog page built from scrach using Node.js Express, handlebars, MongoDB for the database,  Bulma for the front end (It was my first time to use Bulma)",
 
             "weatherApp" : "A page where you can check current weather. It is built with Node.js Express, handlebars and CSS ",
 
